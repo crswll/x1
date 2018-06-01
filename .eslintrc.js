@@ -1,17 +1,38 @@
 module.exports = {
   root: true,
+
   env: {
-    node: true
+    node: true,
   },
-  'extends': [
-    'plugin:vue/essential',
-    '@vue/standard'
+
+  "extends": [
+    "plugin:vue/essential",
+    "@vue/standard",
   ],
+
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-console': 'off',
+    'no-debugger': 'off',
+    'arrow-parens': [
+      'error',
+      'as-needed'
+    ],
+    'comma-dangle': [
+      'error',
+      'always-multiline'
+    ],
+    'html-closing-bracket-newline': [],
+    'vue/html-self-closing': 'error',
+    'vue/require-default-prop': 'error',
+    'vue/require-prop-types': 'error',
+    'vue/html-quotes': [
+      'error',
+      'double'
+    ],
+    'vue/order-in-components': 'error'
   },
+  
   parserOptions: {
-    parser: 'babel-eslint'
-  }
+    parser: "babel-eslint",
+  },
 }

@@ -1,31 +1,49 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div id="app" class="app mx4 my2">
+    <div class="flex">
+      <router-link class="mr2" :to="{ name: 'Programs', query: { 'foo': 'bar' } }">Home</router-link>
+      <button @click="$router.push({ query: null })">No</button>
     </div>
     <router-view/>
   </div>
 </template>
 
+<script>
+import Remote from './remote'
+import { EVENTS } from './constants'
+
+export default {
+  created () {
+    window.addEventListener(
+      'keydown',
+      this.handleKeyDown
+    )
+  },
+
+  destroyed () {
+    window.removeEventListener(
+      'keydown',
+      this.handleKeyDown
+    )
+  },
+
+  methods: {
+    handleKeyDown (event) {
+      Remote.$emit(EVENTS.KEY_DOWN, {
+        event,
+      })
+    },
+  },
+}
+</script>
+
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
+  @import "basscss";
+  @import "./assets/css/base";
+  @import "./assets/css/theme";
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  :root {
+    background-color: var(--background);
+    overflow: hidden;
+  }
 </style>

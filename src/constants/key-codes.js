@@ -1,0 +1,22 @@
+import KEYS from './keys.js'
+
+export default {
+  8: KEYS.LAST,
+  27: KEYS.LAST,
+  13: KEYS.OK,
+  83: KEYS.OK,
+  37: KEYS.LEFT,
+  38: KEYS.UP,
+  39: KEYS.RIGHT,
+  40: KEYS.DOWN,
+  48: KEYS.ZERO,
+  49: KEYS.ONE,
+  50: KEYS.TWO,
+  51: KEYS.THREE,
+  52: KEYS.FOUR,
+  53: KEYS.FIVE,
+  54: KEYS.SIX,
+  55: KEYS.SEVEN,
+  56: KEYS.EIGHT,
+  57: KEYS.NINE,
+}
