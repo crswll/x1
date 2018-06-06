@@ -35,6 +35,20 @@ export default {
     },
   },
 
+  watch: {
+    focused (isFocused, wasFocused) {
+      const { offsetLeft: x, offsetTop: y } = this.$el
+
+      if (isFocused) {
+        this.$emit('focus', { x, y })
+      }
+
+      if (wasFocused) {
+        this.$emit('blur')
+      }
+    },
+  },
+
   methods: {
     ...mapMutations('ui', [
       'activateFocusable',

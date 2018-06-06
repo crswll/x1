@@ -101,16 +101,12 @@ export default {
   created () {
     this.$on(KEYS.RIGHT, this.next)
     this.$on(KEYS.LEFT, this.previous)
-    this.$on(KEYS.DOWN, this.$emit('move-down'))
-    this.$on(KEYS.UP, this.$emit('move-up'))
+    this.$on(KEYS.DOWN, () => this.$emit('move-down'))
+    this.$on(KEYS.UP, () => this.$emit('move-up'))
   },
 
   destroyed () {
-    // Cleaning up... Might not need to?
-    this.$off(KEYS.RIGHT, this.next)
-    this.$off(KEYS.LEFT, this.previous)
-    this.$off(KEYS.DOWN, () => this.$emit('move-down'))
-    this.$off(KEYS.UP, () => this.$emit('move-up'))
+    this.$off()
   },
 
   methods: {

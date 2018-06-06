@@ -1,9 +1,5 @@
 <template>
-  <div id="app" class="app mx4 my2">
-    <div class="flex">
-      <router-link class="mr2" :to="{ name: 'Programs', query: { 'foo': 'bar' } }">Home</router-link>
-      <button @click="$router.push({ query: null })">No</button>
-    </div>
+  <div id="app" class="app mx4">
     <router-view/>
   </div>
 </template>
@@ -38,12 +34,14 @@ export default {
 </script>
 
 <style>
-  @import "basscss";
+  @import "./assets/css/fonts";
   @import "./assets/css/base";
+  @import "./assets/css/utility";
   @import "./assets/css/theme";
 
   :root {
-    background-color: var(--background);
+    background-color: var(--black);
+    color: var(--white);
     overflow: hidden;
   }
 </style>

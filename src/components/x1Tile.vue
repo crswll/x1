@@ -11,6 +11,7 @@
 <style scoped>
 .tile {
   --tx: 0;
+  --ty: 0;
   --width: 0;
   --height: 0;
   --scale: 1;
@@ -19,11 +20,8 @@
   left: 0;
   width: var(--width);
   height: var(--height);
-  transition: all 0.5s;
-  transform:
-    translate3d(var(--tx), 0, 0)
-    scale(var(--scale));
-  transform-origin: 0 50%;
+  transition: all var(--speed-1);
+  transform: translate3d(var(--tx), var(--ty), 0) scale(var(--scale));
 }
 
 .tile {
@@ -67,7 +65,7 @@ export default {
 
     activeScale: {
       type: Number,
-      default: 1.5,
+      default: 1.075,
     },
 
     gutter: {
@@ -89,19 +87,18 @@ export default {
   computed: {
     offscreen () {
       const { selectedIndex, index, buffer } = this.$props
-      return index < selectedIndex - 2 || index > selectedIndex + buffer
+      return index < selectedIndex - buffer || index > selectedIndex + buffer
     },
 
     customProperties () {
-      const { width, height, index, selectedIndex, gutter, activeScale, focused } = this.$props
-      const totalWidth = width + gutter
-      const position = index - selectedIndex
-      const adjust = focused && index > selectedIndex ? totalWidth * activeScale - totalWidth : 0
-      const px = totalWidth * position + adjust
+      const { width, height, index, gutter, selectedIndex, activeScale, focused } = this.$props
+      const tx = (width + gutter) * (index - selectedIndex)
+      const ty = (height * activeScale - height) / 2
       const scale = focused && index === selectedIndex ? activeScale : 1
 
       return {
-        '--tx': `${px}px`,
+        '--ty': `${ty}px`,
+        '--tx': `${tx}px`,
         '--width': `${width}px`,
         '--height': `${height}px`,
         '--scale': `${scale}`,

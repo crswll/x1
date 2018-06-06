@@ -5,5 +5,14 @@
   --success: #47C684;
   --warning: #FFA700;
   --failure: #FB543F;
-  --white: #EEEEEE;
+  --white: #FFFFFF;
+  --gray: #DDDDDD;
+  --black: #000000;
+
+  --speed-base: 0.25s;
+  --speed-multiplier: 1;
+  --speed-1: calc(var(--speed-base) * 1 * var(--speed-multiplier));
+  --speed-2: calc(var(--speed-base) * 2 * var(--speed-multiplier));
+  --speed-3: calc(var(--speed-base) * 3 * var(--speed-multiplier));
+  --speed-4: calc(var(--speed-base) * 4 * var(--speed-multiplier));
 }

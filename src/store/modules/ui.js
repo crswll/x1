@@ -6,11 +6,13 @@ export default {
   state: {
     focusedGuid: 'programs1',
     focusables: [],
+    pages: [],
   },
 
   getters: {
     focusedGuid: ({ focusedGuid }) => focusedGuid,
     focusables: ({ focusables }) => focusables,
+    pages: ({ pages }) => pages,
   },
 
   mutations: {
@@ -49,7 +51,6 @@ export default {
   },
 
   actions: {
-    // This should maybe be in a global mixin?
     focus ({ commit }, guid) {
       Vue.nextTick(() => commit('setFocusedGuid', { guid }))
     },

@@ -1,24 +1,28 @@
 <template>
-  <div :class="classes" :style="styles">
-    <x1-tile
-      v-for="(option, index) in options"
-      :focused="focused"
-      :key="option.value"
-      :index="index"
-      :width="cellConfig.width"
-      :height="cellConfig.height"
-      :gutter="cellConfig.gutter"
-      :buffer="cellConfig.buffer"
-      :active-scale="cellConfig.scaleTo"
-      :selected-index="selectedIndex"
-    >
-      <slot :option="option">{{ option }}</slot>
-    </x1-tile>
+  <div :class="classes">
+    <slot name="title"/>
+    <div class="relative mb2" :style="styles">
+      <x1-tile
+        v-for="(option, index) in options"
+        :focused="focused"
+        :key="option.value"
+        :index="index"
+        :width="cellConfigNormalized.width"
+        :height="cellConfigNormalized.height"
+        :gutter="cellConfigNormalized.gutter"
+        :buffer="cellConfigNormalized.buffer"
+        :active-scale="cellConfigNormalized.scaleTo"
+        :selected-index="selectedIndex"
+      >
+        <slot :option="option">{{ option }}</slot>
+      </x1-tile>
+    </div>
+    <slot name="info"/>
   </div>
 </template>
 
 <style scoped>
-.tiles {
+.tiles__container {
   position: relative;
 }
 </style>
@@ -26,6 +30,14 @@
 <script>
 import { focusable } from '../mixins'
 import x1Tile from './x1Tile'
+
+const CELL_CONFIG_DEFAULT = {
+  width: 200,
+  height: 300,
+  scaleTo: 1.05,
+  gutter: 25,
+  buffer: 10,
+}
 
 export default {
   name: 'x1Tiles',
@@ -41,12 +53,7 @@ export default {
   props: {
     cellConfig: {
       type: Object,
-      default: () => ({
-        width: 200,
-        height: 300,
-        scaleTo: 1.2,
-        gutter: 20,
-      }),
+      default: () => ({}),
     },
 
     options: {
@@ -61,8 +68,15 @@ export default {
   },
 
   computed: {
+    cellConfigNormalized () {
+      return {
+        ...CELL_CONFIG_DEFAULT,
+        ...this.cellConfig,
+      }
+    },
+
     styles () {
-      const { cellConfig: { height, scaleTo } } = this.$props
+      const { cellConfigNormalized: { height, scaleTo } } = this
 
       return {
         height: `${height * scaleTo}px`,
@@ -93,10 +107,9 @@ export default {
   created () {
     this.$on('right', this.next)
     this.$on('left', this.previous)
-
-    // Components should be responsible for handling a focus "exit" (is "blur" web only?)...
     this.$on('up', () => this.$emit('exit-up'))
     this.$on('down', () => this.$emit('exit-down'))
+    this.$on('ok', () => this.$emit('select', { value: this.value }))
   },
 
   methods: {
