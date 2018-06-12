@@ -5,8 +5,14 @@ import Program from '../views/Program'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   mode: 'history',
+
+  scrollBehavior (to, from, savedPosition) {
+    console.log(location.href, window.history.state)
+    console.log(savedPosition)
+  },
+
   routes: [
     {
       path: '/',
@@ -21,3 +27,10 @@ export default new Router({
     },
   ],
 })
+
+router.beforeEach((to, from, next) => {
+  // console.log(location.href, window.history.state)
+  next()
+})
+
+export default router

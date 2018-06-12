@@ -4,10 +4,19 @@
   </div>
 </template>
 
+<style scoped>
+.page {
+  --tx: 0;
+  --ty: 0;
+  transition: transform var(--speed-1);
+  transform: translate3d(var(--tx), var(--ty), 0)
+}
+</style>
+
 <script>
 export default {
   props: {
-    position: {
+    scrollPosition: {
       type: Object,
       default: () => ({
         x: 0,
@@ -18,23 +27,14 @@ export default {
 
   computed: {
     customProperties () {
-      const { position } = this.$props
-      const { x, y } = position
+      const { scrollPosition } = this.$props
+      const { x, y } = scrollPosition
 
       return {
-        '--tx': x,
-        '--ty': y,
+        '--tx': `${x}px`,
+        '--ty': `-${y}px`,
       }
     },
   },
 }
 </script>
-
-<style scoped>
-.page {
-  --tx: 0;
-  --ty: 0;
-  transition: transform var(--speed-1);
-  transform: translate3d(var(--tx), var(--ty), 0)
-}
-</style>

@@ -1,15 +1,6 @@
 <template>
   <div class="program">
-    <x1-stacked-selector
-      focused-guid="foo"
-      guid="foo"
-      label="whoa"
-      :options="[1, 2, 3, 4, 5]"
-      v-model="n"
-      @down="log('b1')"
-      @exit-down="focus('foo')"
-    />
-
+    <router-link :to="{ name: 'Programs', query: { focus: 'programs1' }}">Programs</router-link>
     <basic v-if="program">
       <img slot="poster" :src="program.url">
       <template slot="info" class="foo">
@@ -21,7 +12,7 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
+import store from '../store'
 import Basic from '../views/Basic'
 import x1StackedSelector from '../components/x1StackedSelector'
 import x1Button from '../components/x1Button'
@@ -49,12 +40,8 @@ export default {
   },
 
   computed: {
-    ...mapGetters({
-      getProgramById: 'programs/getProgramById',
-    }),
-
     program () {
-      return this.getProgramById(this.programId)
+      return store.getters['programs/getProgramById'](this.programId)
     },
   },
 }

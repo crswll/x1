@@ -37,10 +37,9 @@ export default {
 
   watch: {
     focused (isFocused, wasFocused) {
-      const { offsetLeft: x, offsetTop: y } = this.$el
-
+      const { offsetTop: y } = this.$el
       if (isFocused) {
-        this.$emit('focus', { x, y })
+        this.$emit('focus', { x: 0, y })
       }
 
       if (wasFocused) {
@@ -69,16 +68,10 @@ export default {
   },
 
   created () {
-    const { guid, order, handleInput } = this
-
-    this.activateFocusable({ guid, order, active: true })
-    Remote.$on(EVENTS.KEY_DOWN, handleInput)
+    Remote.$on(EVENTS.KEY_DOWN, this.handleInput)
   },
 
   destroyed () {
-    const { guid, handleInput } = this
-
-    this.deactivateFocusable({ guid, active: false })
-    Remote.$off(EVENTS.KEY_DOWN, handleInput)
+    Remote.$off(EVENTS.KEY_DOWN, this.handleInput)
   },
 }

@@ -1,4 +1,4 @@
-import axios from 'axios'
+import http from '../../http'
 
 export default {
   namespaced: true,
@@ -10,6 +10,11 @@ export default {
   getters: {
     programs: ({ programs }) => programs,
     getProgramById: ({ programs }) => programId => programs.find(program => program.programId === programId),
+    programsByYear: ({ programs }) => programs.reduce((years, program) => {
+      if (!years[program.year]) years[program.year] = []
+      years[program.year].push(program)
+      return years
+    }, {}),
   },
 
   mutations: {
@@ -20,7 +25,7 @@ export default {
 
   actions: {
     fetch ({ commit }) {
-      return axios.get('/programs.json').then(response => {
+      return http.get('/programs.json').then(response => {
         commit('setPrograms', {
           programs: response.data,
         })

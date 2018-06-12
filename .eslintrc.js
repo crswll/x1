@@ -15,11 +15,11 @@ module.exports = {
     'no-debugger': 'off',
     'arrow-parens': [
       'error',
-      'as-needed'
+      'as-needed',
     ],
     'comma-dangle': [
       'error',
-      'always-multiline'
+      'always-multiline',
     ],
     'html-closing-bracket-newline': [],
     'vue/html-self-closing': 'error',
@@ -27,9 +27,9 @@ module.exports = {
     'vue/require-prop-types': 'error',
     'vue/html-quotes': [
       'error',
-      'double'
+      'double',
     ],
-    'vue/order-in-components': 'error'
+    'vue/order-in-components': 'error',
   },
   
   parserOptions: {

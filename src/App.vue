@@ -1,14 +1,29 @@
 <template>
   <div id="app" class="app mx4">
-    <router-view/>
+    <transition
+      :enter-active-class="`animated ${transition.enter}`"
+      :leave-active-class="`animated ${transition.leave}`"
+      :mode="transition.mode"
+    >
+      <router-view/>
+    </transition>
   </div>
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
 import Remote from './remote'
 import { EVENTS } from './constants'
 
 export default {
+  name: 'App',
+
+  computed: {
+    ...mapGetters('ui', [
+      'transition',
+    ]),
+  },
+
   created () {
     window.addEventListener(
       'keydown',
@@ -36,6 +51,7 @@ export default {
 <style>
   @import "./assets/css/fonts";
   @import "./assets/css/base";
+  @import "./assets/css/animate";
   @import "./assets/css/utility";
   @import "./assets/css/theme";
 
@@ -43,5 +59,15 @@ export default {
     background-color: var(--black);
     color: var(--white);
     overflow: hidden;
+    user-select: none;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .animated {
+    animation-duration: var(--speed-2);
   }
 </style>

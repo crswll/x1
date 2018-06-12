@@ -34,7 +34,7 @@
 }
 
 .hidden {
-  visibility: hidden;
+  display: none;
 }
 </style>
 
@@ -87,7 +87,7 @@ export default {
   computed: {
     offscreen () {
       const { selectedIndex, index, buffer } = this.$props
-      return index < selectedIndex - buffer || index > selectedIndex + buffer
+      return index < selectedIndex - 2 || index > selectedIndex + buffer
     },
 
     customProperties () {

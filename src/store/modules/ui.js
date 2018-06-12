@@ -4,15 +4,19 @@ export default {
   namespaced: true,
 
   state: {
-    focusedGuid: 'programs1',
+    focusedGuid: 'tabs',
     focusables: [],
-    pages: [],
+    transition: {
+      enter: 'fadeIn',
+      leave: 'fadeOut',
+      mode: 'out-in',
+    },
   },
 
   getters: {
     focusedGuid: ({ focusedGuid }) => focusedGuid,
     focusables: ({ focusables }) => focusables,
-    pages: ({ pages }) => pages,
+    transition: ({ transition }) => transition,
   },
 
   mutations: {
@@ -20,33 +24,10 @@ export default {
       state.focusedGuid = guid
     },
 
-    // We can query this maybe?
-    activateFocusable (state, { guid, order, active }) {
-      const focusableIndex = state.focusables.findIndex(focusable => focusable.guid === guid)
+    setTransition (state, { enter, leave, mode }) {
+      console.log(enter, leave, mode)
 
-      if (focusableIndex > -1) {
-        state.focusables.splice(focusableIndex, 1, {
-          ...state.focusables[focusableIndex],
-          active,
-        })
-      } else {
-        state.focusables.push({
-          guid,
-          order,
-          active,
-        })
-      }
-    },
-
-    deactivateFocusable (state, { guid, active }) {
-      const focusableIndex = state.focusables.findIndex(focusable => focusable.guid === guid)
-
-      if (focusableIndex > -1) {
-        state.focusables.splice(focusableIndex, 1, {
-          ...state.focusables[focusableIndex],
-          active,
-        })
-      }
+      state.transition = { enter, leave, mode }
     },
   },
 
