@@ -25,9 +25,11 @@ export default {
     },
 
     setTransition (state, { enter, leave, mode }) {
-      console.log(enter, leave, mode)
-
-      state.transition = { enter, leave, mode }
+      state.transition = {
+        enter,
+        leave,
+        mode,
+      }
     },
   },
 

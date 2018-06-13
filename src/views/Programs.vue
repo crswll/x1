@@ -4,14 +4,36 @@
       <div>On Demand: {{ selectedTab }}</div>
       <div>2:32p / 76°</div>
     </div>
+
+    <div class="my2">
+      <x1-button
+        guid="armStatus"
+        :focused-guid="focusedGuid"
+        @ok="log('clicked arm status')"
+        @exit-right="focus('activity')"
+        @exit-down="focus('tabs')"
+      >Status</x1-button>
+
+      <x1-button
+        guid="activity"
+        :focused-guid="focusedGuid"
+        @ok="log('clicked activity')"
+        @exit-left="focus('armStatus')"
+        @exit-down="focus('tabs')"
+      >Activity</x1-button>
+    </div>
+
     <x1-tabs
       :options="['Movies', 'TV', 'Kids', 'Networks', 'Music', 'Events', 'Latino']"
       :focused-guid="focusedGuid"
       v-model="selectedTab"
       guid="tabs"
+      @select="log"
+      @exit-up="focus('armStatus')"
       @exit-down="focus('programs1')"
       @focus="scroll({ x: 0, y: 0 })"
     />
+
     <x1-tiles
       class="pt3 h-3-4"
       v-model="programId1"
@@ -82,6 +104,7 @@
 <script>
 import { mapGetters } from 'vuex'
 import x1Page from '../views/Page'
+import x1Button from '../components/x1Button'
 import x1Pager from '../components/x1Pager'
 import x1ProgressBar from '../components/x1ProgressBar'
 import x1Tabs from '../components/x1Tabs'
@@ -91,6 +114,7 @@ export default {
   name: 'Programs',
 
   components: {
+    x1Button,
     x1Page,
     x1Pager,
     x1ProgressBar,
@@ -159,7 +183,6 @@ export default {
   },
 
   beforeRouteLeave (to, from, next) {
-    console.log(this.focusedGuid)
     next()
   },
 }

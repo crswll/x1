@@ -1,8 +1,8 @@
 <template>
   <div class="tile" :class="{
     hidden: offscreen,
-    'tile--focused': focused && index === selectedIndex,
-    'tile--selected': index === selectedIndex
+    'tile--focused': focused && selected,
+    'tile--selected': selected,
   }" :style="[customProperties]">
     <slot>Feed me!</slot>
   </div>
@@ -85,16 +85,29 @@ export default {
   },
 
   computed: {
+    selected () {
+      return this.selectedIndex === this.index
+    },
+
     offscreen () {
       const { selectedIndex, index, buffer } = this.$props
       return index < selectedIndex - 2 || index > selectedIndex + buffer
     },
 
     customProperties () {
-      const { width, height, index, gutter, selectedIndex, activeScale, focused } = this.$props
+      const {
+        width,
+        height,
+        index,
+        gutter,
+        selectedIndex,
+        activeScale,
+        focused,
+        selected,
+      } = this
       const tx = (width + gutter) * (index - selectedIndex)
       const ty = (height * activeScale - height) / 2
-      const scale = focused && index === selectedIndex ? activeScale : 1
+      const scale = focused && selected ? activeScale : 1
 
       return {
         '--ty': `${ty}px`,

@@ -1,9 +1,9 @@
 <template>
-  <nav class="tabs flex justify-between">
+  <nav :class="['tabs', 'flex', 'justify-between', { 'tabs--focused': focused }]">
     <button
       v-for="option in options"
       :key="option"
-      :class="['tab', 'py1', 'px2', 'h1', 'font-thin', { 'tab--active': option === value }]"
+      :class="['tab', 'py1', 'px2', 'h1', 'font-thin', { 'tab--selected': option === value }]"
     >
       {{ option }}
     </button>
@@ -16,10 +16,14 @@
   border-width: 1px 0;
 }
 
-.tab--active {
+.tab--selected {
   color: var(--primary);
-  border: 2px solid var(--white);
+  border: 2px solid transparent;
   border-width: 2px 0;
+}
+
+.tabs--focused .tab--selected {
+  border-color: var(--white);
 }
 </style>
 
@@ -56,7 +60,6 @@ export default {
     this.$on('right', this.right)
     this.$on('down', () => this.$emit('exit-down'))
     this.$on('up', () => this.$emit('exit-up'))
-    this.$on('ok', () => this.$emit('select', this.value))
   },
 
   methods: {
