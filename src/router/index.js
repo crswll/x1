@@ -6,7 +6,6 @@ import Program from '../views/Program'
 Vue.use(Router)
 
 const router = new Router({
-  mode: 'history',
   base: '/x1/',
   routes: [
     {
@@ -21,11 +20,6 @@ const router = new Router({
       props: true,
     },
   ],
-})
-
-router.beforeEach((to, from, next) => {
-  console.log(location.href, window.history.state)
-  next()
 })
 
 export default router
