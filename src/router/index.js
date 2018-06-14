@@ -5,7 +5,7 @@ import Program from '../views/Program'
 
 Vue.use(Router)
 
-const router = new Router({
+export default new Router({
   routes: [
     {
       path: '/',
@@ -20,5 +20,3 @@ const router = new Router({
     },
   ],
 })
-
-export default router
