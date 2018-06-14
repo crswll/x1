@@ -1,0 +1,1412 @@
+[
+  {
+    "programId": "comcast:compass:program:5881303020318615112",
+    "title": "Sing",
+    "synopsis": "A pig (Reese Witherspoon), a mouse (Seth MacFarlane), a porcupine (Scarlett Johansson), a gorilla (Taron Egerton), an elephant (Tori Kelly) and other animals gather at a koala's (Matthew McConaughey) theater for a singing competition.",
+    "duration": 6480,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.99985385,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 74
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 73
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 1.19993
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5881303020318615112"
+  },
+  {
+    "programId": "comcast:compass:program:8562248804963466112",
+    "title": "Moana",
+    "synopsis": "A once-mighty demigod (Dwayne Johnson) and a spirited teenager (Auli'i Cravalho) embark on an epic adventure across the ocean.",
+    "duration": 6780,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.99970776,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 90
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 95
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 1.19992
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8562248804963466112"
+  },
+  {
+    "programId": "comcast:compass:program:5103617804193345112",
+    "title": "Trolls",
+    "synopsis": "Poppy (Anna Kendrick), the optimistic leader of the trolls, and Branch (Justin Timberlake), her polar opposite, embark on an adventure that takes them far beyond the only world they've ever known.",
+    "duration": 5520,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.9995616,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 70
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 74
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 1.1999
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5103617804193345112"
+  },
+  {
+    "programId": "comcast:compass:program:7762675461312278112",
+    "title": "The Edge of Seventeen",
+    "synopsis": "A high school junior (Hailee Steinfeld) develops an unexpected bond with a thoughtful teen (Hayden Szeto) after learning that her best friend (Haley Lu Richardson) is dating her older brother (Blake Jenner).",
+    "duration": 6300,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.99941546,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 85
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 95
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 1.19984
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=7762675461312278112"
+  },
+  {
+    "programId": "comcast:compass:program:8571161916481783112",
+    "title": "Central Intelligence",
+    "synopsis": "A lethal CIA agent (Dwayne Johnson) and his former classmate (Kevin Hart) encounter shootouts, espionage and double-crosses while trying to save the U.S. spy satellite system.",
+    "duration": 6840,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.9992693,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 63
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 69
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 1.19981
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8571161916481783112"
+  },
+  {
+    "programId": "comcast:compass:program:5377275663719253112",
+    "title": "Mike and Dave Need Wedding Dates",
+    "synopsis": "Two hard-partying brothers (Zac Efron, Adam Devine) bring two wild and uncontrollable women to their sister's (Sugar Lyn Beard) wedding in Hawaii.",
+    "duration": 5880,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.9991232,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 54
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 35
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.33375236
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5377275663719253112"
+  },
+  {
+    "programId": "comcast:compass:program:8139424310197637112",
+    "title": "Ghostbusters",
+    "synopsis": "Armed with proton packs and plenty of attitude, four women (Melissa McCarthy, Kristen Wiig, Leslie Jones, Kate McKinnon) prepare for an epic battle as mischievous ghosts start to wreak havoc in New York.",
+    "duration": 7020,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.99897707,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 53
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 73
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.2814414
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8139424310197637112"
+  },
+  {
+    "programId": "comcast:compass:program:5893577079231200112",
+    "title": "Lego Scooby Doo: Haunted Hollywood",
+    "synopsis": "The gang tries to rescue an old movie studio that is threatened by developers and haunted by movie monsters.",
+    "duration": 4320,
+    "programType": "Movie",
+    "starRating": 0,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.9988309,
+    "relevance": [
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.19771421
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5893577079231200112"
+  },
+  {
+    "programId": "comcast:compass:program:4670474925653347112",
+    "title": "LEGO Scooby-Doo: Knight Time Terror",
+    "synopsis": "The gang visits Grimsley Manor, where they face the mystery of a Black Knight who has come to life.",
+    "duration": 1800,
+    "programType": "Movie",
+    "starRating": 0,
+    "language": "eng",
+    "year": 2015,
+    "score": 0.99868476,
+    "relevance": [
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.19735374
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=4670474925653347112"
+  },
+  {
+    "programId": "comcast:compass:program:6644710234950312112",
+    "title": "Step Brothers",
+    "synopsis": "Two lazy, immature men (Will Ferrell, John C. Reilly) become rivals when the marriage of one's mother and the other's father forces them to live as siblings in the same house.",
+    "duration": 5700,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2008,
+    "score": 0.9985387,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 69
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 55
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.16349977
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6644710234950312112"
+  },
+  {
+    "programId": "comcast:compass:program:4654784291964651112",
+    "title": "Monster House",
+    "synopsis": "No adults believe three youths' (Mitchel Musso, Spencer Locke, Sam Lerner) assertion that a neighboring residence is a living creature that means them harm.",
+    "duration": 5460,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2006,
+    "score": 0.9983925,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 63
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 74
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.13860631
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=4654784291964651112"
+  },
+  {
+    "programId": "comcast:compass:program:8479939135210385112",
+    "title": "Rio 2",
+    "synopsis": "Blu (Jesse Eisenberg), Jewel (Anne Hathaway) and their three children leave the comfort of the city and travel to the Amazon jungle to learn how to live as wild birds.",
+    "duration": 6060,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2014,
+    "score": 0.9982464,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 58
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 46
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.13650064
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8479939135210385112"
+  },
+  {
+    "programId": "comcast:compass:program:8844719539422414112",
+    "title": "Jack the Giant Slayer",
+    "synopsis": "A young farmhand (Nicholas Hoult) gets swept into the realm of legend when he must defend his land from a seemingly unstoppable force of giant warriors.",
+    "duration": 6780,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2013,
+    "score": 0.9981002,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 55
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 52
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.13352242
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8844719539422414112"
+  },
+  {
+    "programId": "comcast:compass:program:9101709563277933112",
+    "title": "Tammy",
+    "synopsis": "After losing her job, wrecking her car and discovering her husband's infidelity, a woman (Melissa McCarthy) hits the road with her feisty grandmother (Susan Sarandon).",
+    "duration": 5820,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2014,
+    "score": 0.99795413,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 37
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 23
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.13122708
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=9101709563277933112"
+  },
+  {
+    "programId": "comcast:compass:program:5960931120564963112",
+    "title": "Scooby-Doo! WrestleMania Mystery",
+    "synopsis": "Shaggy and Scooby win tickets to WrestleMania, and the entire gang heads to WWE City to attend. When a ghostly bear appears and threatens to ruin the show, the team works with WWE superstars to solve the mystery.",
+    "duration": 4980,
+    "programType": "Movie",
+    "starRating": 0,
+    "language": "eng",
+    "year": 2014,
+    "score": 0.997808,
+    "relevance": [
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.12531191
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5960931120564963112"
+  },
+  {
+    "programId": "comcast:compass:program:6367800091136663112",
+    "title": "Hotel Transylvania",
+    "synopsis": "An unforeseen complication unfolds when Dracula (Adam Sandler) invites the world's most-infamous monsters to his lavish resort to celebrate his daughter's 118th birthday.",
+    "duration": 5700,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2012,
+    "score": 0.9976618,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 72
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 45
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.119424626
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6367800091136663112"
+  },
+  {
+    "programId": "comcast:compass:program:8792961288052686112",
+    "title": "Alvin and the Chipmunks: The Road Chip",
+    "synopsis": "Believing that Dave (Jason Lee) is about to propose to his girlfriend (Kimberly Williams-Paisley), furry friends Alvin (Justin Long), Simon (Matthew Gray Gubler) and Theodore (Jesse McCartney) embark on a cross-country odyssey to stop him.",
+    "duration": 5160,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2015,
+    "score": 0.99751574,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 52
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 16
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.114753604
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8792961288052686112"
+  },
+  {
+    "programId": "comcast:compass:program:7764230927040542112",
+    "title": "Get a Job",
+    "synopsis": "A young man (Miles Teller) and his girlfriend (Anna Kendrick) struggle to find desirable employment after graduating from college.",
+    "duration": 4980,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.9973696,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 22
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 5
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.114161655
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=7764230927040542112"
+  },
+  {
+    "programId": "comcast:compass:program:8343521607125932112",
+    "title": "The Good Dinosaur",
+    "synopsis": "With help from a friendly Neanderthal boy (Jack Bright), a young dinosaur (Raymond Ochoa) embarks on an epic adventure to reunite with his beloved family (Jeffrey Wright, Frances McDormand).",
+    "duration": 5520,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2015,
+    "score": 0.99722344,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 66
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 76
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.113085926
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8343521607125932112"
+  },
+  {
+    "programId": "comcast:compass:program:8714365940101867112",
+    "title": "The Pacifier",
+    "synopsis": "A Navy SEAL (Vin Diesel) faces the ultimate test when he must care for five children and protect them from their father's enemies.",
+    "duration": 5700,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2005,
+    "score": 0.9970773,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 59
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 20
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.104700476
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8714365940101867112"
+  },
+  {
+    "programId": "comcast:compass:program:5599149939674631112",
+    "title": "No Strings Attached",
+    "synopsis": "After sex enters the equation, two lifelong friends (Natalie Portman, Ashton Kutcher) make a pact to keep their relationship purely physical.",
+    "duration": 6480,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2011,
+    "score": 0.9969312,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 51
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 49
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.10197545
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5599149939674631112"
+  },
+  {
+    "programId": "comcast:compass:program:4651840463719832112",
+    "title": "Alvin and the Chipmunks: Chipwrecked",
+    "synopsis": "Chipmunks Alvin (Justin Long), Simon (Matthew Gray Gubler) and Theodore (Jesse McCartney), along with the Chipettes, become marooned on a not-so-deserted island.",
+    "duration": 5220,
+    "programType": "Movie",
+    "starRating": 1,
+    "language": "eng",
+    "year": 2011,
+    "score": 0.99678504,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 52
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 12
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.10002537
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=4651840463719832112"
+  },
+  {
+    "programId": "comcast:compass:program:5046691649752022112",
+    "title": "Scooby-Doo! Moon Monster Madness",
+    "synopsis": "Scooby-Doo and the gang win five seats on a billionaire's brand new space shuttle, and have to unravel a mystery when aliens attack their ship!",
+    "duration": 4320,
+    "programType": "Movie",
+    "starRating": 0,
+    "language": "eng",
+    "year": 2015,
+    "score": 0.9966389,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 70
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": -1
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.09881535
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5046691649752022112"
+  },
+  {
+    "programId": "comcast:compass:program:8938469030490593112",
+    "title": "Inside Out",
+    "synopsis": "An 11-year-old girl's (Kaitlyn Dias) five emotions try to guide her through a difficult transition after she moves from the Midwest to San Francisco.",
+    "duration": 5700,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2015,
+    "score": 0.99649274,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 89
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 98
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.09852728
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8938469030490593112"
+  },
+  {
+    "programId": "comcast:compass:program:5127994202990139112",
+    "title": "Deadpool",
+    "synopsis": "Armed with accelerated healing powers and a twisted sense of humor, mercenary Wade Wilson (Ryan Reynolds) adopts the alter ego Deadpool and hunts down the man (Ed Skrein) who nearly destroyed his life.",
+    "duration": 6480,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.99634665,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 90
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 84
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.097641006
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5127994202990139112"
+  },
+  {
+    "programId": "comcast:compass:program:7561814817613190112",
+    "title": "Fifty Shades of Black",
+    "synopsis": "In a spoof of \"Fifty Shades of Grey,\" wealthy entrepreneur Christian Black (Marlon Wayans) introduces a young woman (Kali Hawk) to his kinky world of S&M.",
+    "duration": 5520,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.9962005,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 19
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 7
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.094780505
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=7561814817613190112"
+  },
+  {
+    "programId": "comcast:compass:program:6577736360789828112",
+    "title": "The Nice Guys",
+    "synopsis": "A down-on-his-luck private eye (Ryan Gosling) works with a hired enforcer (Russell Crowe) to investigate the disappearance of a young woman (Margaret Qualley) in 1977 Los Angeles.",
+    "duration": 6960,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.99605435,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 79
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 92
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.08992449
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6577736360789828112"
+  },
+  {
+    "programId": "comcast:compass:program:9193050610162375112",
+    "title": "The Boss",
+    "synopsis": "After her release from prison, a former CEO (Melissa McCarthy) battles old enemies while trying to build a brownie empire with her ex-assistant (Kristen Bell).",
+    "duration": 5940,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.9959082,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 39
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 22
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.0865567
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=9193050610162375112"
+  },
+  {
+    "programId": "comcast:compass:program:6138268320268720112",
+    "title": "Grown Ups",
+    "synopsis": "Friends and former teammates (Adam Sandler, Kevin James, Chris Rock) learn that age does not, necessarily, equal maturity when they reunite to honor the memory of their basketball coach.",
+    "duration": 6120,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2010,
+    "score": 0.9957621,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 62
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 10
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.08641195
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6138268320268720112"
+  },
+  {
+    "programId": "comcast:compass:program:6146677036947885112",
+    "title": "Here Comes the Boom",
+    "synopsis": "A biology teacher moonlights as a mixed martial arts fighter to raise money to save his school's music program.",
+    "duration": 6240,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2012,
+    "score": 0.99561596,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 65
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 38
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.085996605
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6146677036947885112"
+  },
+  {
+    "programId": "comcast:compass:program:7984721199884962112",
+    "title": "Despicable Me 2",
+    "synopsis": "Just as Gru (Steve Carell) settles into his new role as a suburban family man, the ultrasecret Anti-Villain League sends him on a mission to nab the perpetrator of a spectacular heist.",
+    "duration": 5880,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2013,
+    "score": 0.9954698,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 85
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 73
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.084945954
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=7984721199884962112"
+  },
+  {
+    "programId": "comcast:compass:program:5986754882221025112",
+    "title": "The Hobbit: An Unexpected Journey",
+    "synopsis": "At the urging of the wizard Gandalf (Ian McKellen), unassuming hobbit Bilbo Baggins (Martin Freeman) joins 13 dwarves on a perilous quest to reclaim the kingdom of Erebor and gains possession of the powerful One Ring.",
+    "duration": 10140,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2012,
+    "score": 0.9953237,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 83
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 64
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.08447453
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5986754882221025112"
+  },
+  {
+    "programId": "comcast:compass:program:5450404158173200112",
+    "title": "10,000 B.C.",
+    "synopsis": "A young mammoth-hunter (Steven Strait) leads a small band of tribesmen on a journey to the ends of the Earth on a mission to save his beloved (Camilla Belle) from her warlord kidnappers.",
+    "duration": 6540,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2008,
+    "score": 0.99517757,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 37
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 8
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.08297892
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5450404158173200112"
+  },
+  {
+    "programId": "comcast:compass:program:7160041716403758112",
+    "title": "How to Train Your Dragon 2",
+    "synopsis": "After discovering a secret cave filled with wild dragons and their mysterious benefactor, Hiccup (Jay Baruchel) and Toothless find themselves at the center of a battle to protect the peace of Berk.",
+    "duration": 6120,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2014,
+    "score": 0.9950314,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 90
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 92
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.080822155
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=7160041716403758112"
+  },
+  {
+    "programId": "comcast:compass:program:7507565325656603112",
+    "title": "Rush Hour 2",
+    "synopsis": "Two detectives (Jackie Chan, Chris Tucker) battle a Hong Kong gangster (John Lone) and his henchmen after a bombing at the U.S. Embassy.",
+    "duration": 5400,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2001,
+    "score": 0.99488527,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 74
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 52
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.080151364
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=7507565325656603112"
+  },
+  {
+    "programId": "comcast:compass:program:6641139125574473112",
+    "title": "A Million Ways to Die in the West",
+    "synopsis": "A pistol-packing woman (Charlize Theron) helps a cowardly farmer (Seth MacFarlane) find his inner courage, but when her outlaw husband (Liam Neeson) rides into town seeking revenge, the farmer must put his newfound bravery to the test.",
+    "duration": 6900,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2014,
+    "score": 0.9947392,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 40
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 33
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.07958022
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6641139125574473112"
+  },
+  {
+    "programId": "comcast:compass:program:8394224939913320112",
+    "title": "Now You See Me 2",
+    "synopsis": "A devious tech wizard (Daniel Radcliffe) forces the illusionists (Jesse Eisenberg, Woody Harrelson) known as the Four Horsemen to steal a powerful chip that can control all of the world's computers.",
+    "duration": 7740,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.994593,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 54
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 34
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.07901674
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8394224939913320112"
+  },
+  {
+    "programId": "comcast:compass:program:8282467751456238112",
+    "title": "Scooby-Doo! and Kiss: Rock and Roll Mystery",
+    "synopsis": "The Mystery Inc. gang and KISS investigate a haunting, and discover the Crimson Witch has returned to summon The Destroyer from the Kissteria dimension.",
+    "duration": 4320,
+    "programType": "Movie",
+    "starRating": 0,
+    "language": "eng",
+    "year": 2015,
+    "score": 0.9944469,
+    "relevance": [
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.07867913
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8282467751456238112"
+  },
+  {
+    "programId": "comcast:compass:program:8886114442721142112",
+    "title": "Shrek",
+    "synopsis": "In order to save his home, a monster (Mike Myers) with a donkey (Eddie Murphy) makes a deal with a mean lord to rescue a beautiful princess (Cameron Diaz).",
+    "duration": 5340,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2001,
+    "score": 0.9943007,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 90
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 88
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.07803746
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8886114442721142112"
+  },
+  {
+    "programId": "comcast:compass:program:8294010692581656112",
+    "title": "The Proposal",
+    "synopsis": "Facing deportation to Canada, a high-powered book editor (Sandra Bullock) pretends she is engaged to her assistant (Ryan Reynolds), whom she's tormented for years.",
+    "duration": 6480,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2009,
+    "score": 0.99415463,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 67
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 44
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.078035556
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8294010692581656112"
+  },
+  {
+    "programId": "comcast:compass:program:6405026951800365112",
+    "title": "Mr. Peabody & Sherman",
+    "synopsis": "After Sherman (Max Charles) and Penny (Ariel Winter) take his time machine for a joyride, Mr. Peabody (Ty Burrell) must come to the rescue before the past, present and future are changed forever.",
+    "duration": 5460,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2014,
+    "score": 0.9940085,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 73
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 80
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.07473688
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6405026951800365112"
+  },
+  {
+    "programId": "comcast:compass:program:6654826682824373112",
+    "title": "Ratatouille",
+    "synopsis": "A Parisian rat (Patton Oswalt) who enjoys fine food lives beneath a famous restaurant and longs to be a great chef.",
+    "duration": 6660,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2007,
+    "score": 0.99386233,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 87
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 96
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.070226505
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6654826682824373112"
+  },
+  {
+    "programId": "comcast:compass:program:5498931110125974112",
+    "title": "Friday",
+    "synopsis": "A South Central Los Angeles resident (Ice Cube) hangs out on his front porch with a pal (Chris Tucker) who owes money to a drug dealer.",
+    "duration": 5460,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 1995,
+    "score": 0.9937162,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 79
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": -1
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.06732227
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5498931110125974112"
+  },
+  {
+    "programId": "comcast:compass:program:7130844210846424112",
+    "title": "Rush Hour",
+    "synopsis": "A Hong Kong detective (Jackie Chan) and a wisecracking L.A.P.D. detective (Chris Tucker) choose to work together to find the missing daughter of a Chinese diplomat.",
+    "duration": 5880,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 1998,
+    "score": 0.9935701,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 78
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 60
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.066798575
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=7130844210846424112"
+  },
+  {
+    "programId": "comcast:compass:program:6300863880247895112",
+    "title": "The Secret Life of Pets",
+    "synopsis": "A domesticated terrier (Louis C.K.) and his unruly canine pal (Eric Stonestreet) encounter a rebellious bunny (Kevin Hart) and his gang of abandoned pets.",
+    "duration": 5460,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2016,
+    "score": 0.99342394,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 63
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 74
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.06540502
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6300863880247895112"
+  },
+  {
+    "programId": "comcast:compass:program:6778535530299780112",
+    "title": "Monsters vs. Aliens",
+    "synopsis": "A giant woman (Reese Witherspoon), a bug-headed scientist (Hugh Laurie) and a gelatinous mass (Seth Rogen) are among the ragtag monsters that must defend Earth from a rampaging alien robot.",
+    "duration": 5640,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2009,
+    "score": 0.9932778,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 59
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 72
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.063417345
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=6778535530299780112"
+  },
+  {
+    "programId": "comcast:compass:program:7907879327643872112",
+    "title": "The Princess Diaries 2: Royal Engagement",
+    "synopsis": "While living with her royal grandmother (Julie Andrews), a young princess (Anne Hathaway) must find a suitable husband in 30 days or give up the throne.",
+    "duration": 6780,
+    "programType": "Movie",
+    "starRating": 2,
+    "language": "eng",
+    "year": 2004,
+    "score": 0.99313164,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 59
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 25
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.060709737
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=7907879327643872112"
+  },
+  {
+    "programId": "comcast:compass:program:8558887179013234112",
+    "title": "The Peanuts Movie",
+    "synopsis": "Good ol' Charlie Brown (Noah Schnapp) develops a crush on the Little Red-Haired Girl (Francesca Angelucci Capaldi) while his best friend Snoopy (Bill Melendez) embarks on an epic adventure as a World War I flying ace who pursues the Red Baron.",
+    "duration": 5340,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2015,
+    "score": 0.99298555,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 76
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 87
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.059972133
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=8558887179013234112"
+  },
+  {
+    "programId": "comcast:compass:program:5408960094766504112",
+    "title": "Rio",
+    "synopsis": "A domesticated macaw (Jesse Eisenberg) and his human friend (Leslie Mann) travel to Rio de Janeiro to meet the last surviving female (Anne Hathaway) of his kind.",
+    "duration": 5760,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2011,
+    "score": 0.9928394,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 71
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 72
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.059529517
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=5408960094766504112"
+  },
+  {
+    "programId": "comcast:compass:program:7754818267223446112",
+    "title": "17 Again",
+    "synopsis": "A 37-year-old gets the chance to correct the mistakes of his past when he is miraculously transformed into a teenager (Zac Efron).",
+    "duration": 6120,
+    "programType": "Movie",
+    "starRating": 3,
+    "language": "eng",
+    "year": 2009,
+    "score": 0.99269325,
+    "relevance": [
+      {
+        "type": "fanScore",
+        "source": "rottenTomato",
+        "score": 67
+      },
+      {
+        "type": "criticScore",
+        "source": "rottenTomato",
+        "score": 55
+      },
+      {
+        "type": "browse_rank",
+        "source": "REX",
+        "score": 0.056615137
+      }
+    ],
+    "url": "http://edge.myriad-gn-xcr.xcr.comcast.net/select/image?width=249&height=332&entityId=7754818267223446112"
+  }
+]
