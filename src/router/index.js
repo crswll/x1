@@ -6,7 +6,6 @@ import Program from '../views/Program'
 Vue.use(Router)
 
 const router = new Router({
-  base: '/x1/',
   routes: [
     {
       path: '/',
